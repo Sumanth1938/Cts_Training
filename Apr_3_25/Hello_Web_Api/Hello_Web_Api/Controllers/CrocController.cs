@@ -89,6 +89,71 @@ namespace Hello_Web_Api.Controllers
             tiger.updateDetails(Commonname, power);
             return Ok(tiger);
         }
+
+
+        [HttpPost]
+        [Route("AddCore")]
+        public async Task<IActionResult> CreateCroc([FromBody] Crocodile crocodile)
+        {
+            var temCroc =crocodile;
+           return Ok("Core recieved");
+        }
+
+        [HttpPost]
+        [Route("AddCore2")]
+        public async Task<IActionResult> CreateCroc2([FromBody] Crocodile crocodile)
+        {
+            var temCroc = crocodile;
+            return Ok(temCroc);
+        }
+
+        [HttpPost]
+        [Route("AddNums")]
+        public async Task<IActionResult> AddNums([FromBody] Numbers numbers)
+        {
+            var number1 = numbers.firstNumber;
+            var number2 = numbers.secondNumber;
+            displays d = new displays();
+            d.additions(number1,number2);
+            d.subtractions(number1,number2);
+            d.divisions(number1,number2);
+            d.multiplications(number1,number2);
+
+            return Ok(d);
+        }
+    }
+
+    public class displays
+    {
+        public int addition { get; set; }
+        public int subtraction { get; set; }
+        public int multiplication { get; set; }
+        public int division { get; set; }
+
+        public void additions(int a,int b)
+        {
+            addition = a + b;
+        }
+        public void subtractions(int a, int b)
+        {
+            subtraction = a -b;
+        }
+        public void multiplications(int a, int b)
+        {
+            multiplication = a *b;
+        }
+        public void divisions(int a, int b)
+        {
+            division = a / b;
+        }
+    }
+    public class Numbers
+    {
+        public int firstNumber { get; set; }
+        public int secondNumber { get; set; }
+
+        
+
     }
     //class Crocodile
     //{
