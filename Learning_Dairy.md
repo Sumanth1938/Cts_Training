@@ -6,6 +6,32 @@ NASA API:
 oruE9qKGWnwK5WiJFULcgKTvweYOVLWSAP3tgUua
 
 
+## 4-Apr-25
+
+Another great morning to all of you. As usual, the agenda for the day.
+ 
+Morning and Afternoon
+ 
+1. Writing Classes and Creating Objects and 'var' usage
+1. Web API Project
+1. Sharing Postman Collections
+1. Interfaces and Inheritance and Implementation
+1. Dependency Injection
+1. Setting up SQL Express, Introduction to SQL, database and some general queries
+ 
+Usual Activities
+ 
+1. Any pending/future Udemy Courses
+1. Doubt Clearing, Usual Project Planning and Code Discussion
+ 
+Links for the Day.
+ 
+1. https://github.com/Jay-study-nildana/Azure-CSharp-Corp-Trainer-Syllabus/tree/main/SQLFundamentals
+1. https://vijayasimhabr.medium.com/practice-ms-sql-database-with-dc-comics-characters-d2d8c68025e1
+1. https://jay-study-nildana.github.io/Azure-CSharp-Corp-Trainer-Syllabus/
+1. https://jay-study-nildana.github.io/BungieCordBlog/
+
+
 ## 3-Apr-25
 
 Today's Agenda 
