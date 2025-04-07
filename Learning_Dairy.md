@@ -8,63 +8,6 @@ sql server Management:
 Username: Sumanth
 Password: Sumanth@01
 
-https://github.com/Jay-study-nildana/BungieCordBlog
-
-next step:
-run the web api
-
-
-1. NOTE:
-   1. Folder April 7 25 
-        1.BungieCordBlogWebAPI folder is created 
-        1.Run the Web API Project in Visual Studio (as you would run any other dot net project).
-        1.Update 'ConnectionString'
-        1.Run 'Update-Database'
-        1.Update-Database -Context ApplicationDbContext
-        1.Update-Database -Context AuthDbContext
-        1.Update 'Key' with a 256 bit secret string
-        1.Run the Angular Project (as you would run any other angular project)
-        1.npm install
-        1.ng serve or npm run start
-        1.Connecting the Back End to Front End
-        1.API URI of the web api must match with the 'apiBaseUrl' in the front end app
-        1.Register user via Swagger/Postman
-        1.Login on the web app.
-        1.Default admin user is 'admin@BungieCordBlog.com' and Password is 'Password@6969'
-        1.Create a Category
-        1.Then, proceed to create blog posts
-        1.Blog Posts become visible on the home page
-        1.TODO : Add Register to the web app
-
-1. Battle Testing Connection String Stuff:
- 
-    1."Server=(localdb)\\MSSQLLocalDB;Database=BungieCordBlogDBApril72025a;Trusted_Connection=True;User Id=admin2;Password=password;"
-    1."Server=(localdb)\\MSSQLLocalDB;Database=BungieCordBlogDBApril72025a;TrustServerCertificate=True;User Id=admin2;Password=password;"
-    1."Server=localhost\\SQLEXPRESS;Database=BungieCordBlogDBApril72025a;Trusted_Connection=True;User Id=admin2;Password=password;"
-    1."Server=localhost\\SQLEXPRESS;Database=BungieCordBlogDBApril72025b;User Id=admin2;Password=password;TrustServerCertificate=True"
-
-
-1. Battle tested for both the users with windows and sql authentication + localDB and SQLEXPRESS Server:
-
-    1."Server=(localdb)\\MSSQLLocalDB;Database=BungieCordBlogDBApril72025a;Trusted_Connection=True;User Id=admin2;Password=password;"
-    1."Server=(localdb)\\MSSQLLocalDB;Database=BungieCordBlogDBApril72025a;TrustServerCertificate=True;User Id=admin2;Password=password;"
-    1."Server=localhost\\SQLEXPRESS;Database=BungieCordBlogDBApril72025a;Trusted_Connection=True;User Id=admin2;Password=password;"
-    1."Server=localhost\\SQLEXPRESS;Database=BungieCordBlogDBApril72025b;User Id=admin2;Password=password;TrustServerCertificate=True"
-    1."ConnectionString": "Server=localhost\\SQLEXPRESS;Database=BungieCordBlogDBApril72025b;Trusted_Connection=True;TrustServerCertificate=True;"
-
-
-1. This is worked for me :
-    1. Update the connection string in the application.json:
-    1. "ConnectionString": "Server=localhost\\SQLEXPRESS;Database=BungieCordBlogDBApril72025b;User Id=Sumanth;Password=Sumanth@01;TrustServerCertificate=True"
-    1.Update 'ConnectionString'
-    1.Run 'Update-Database'
-    1.Update-Database -Context ApplicationDbContext
-    1.Update-Database -Context AuthDbContext
-    1.Update 'Key' with a 256 bit secret string --- get this from internet 
-    1. to test this with the swagger token check this in the https://jwt.io/ 
-
-And then run the commnds 
-
 ## 7-Apr-2025
 Another glorious week of training has begun. As usual, today's Agenda
  
@@ -98,6 +41,65 @@ Swagger passwords:
   "email": "sumanth@gmail.com",
   "password": "Sumanth@01"
 }
+
+
+https://github.com/Jay-study-nildana/BungieCordBlog
+
+next step:
+run the web api
+
+
+1. NOTE:
+   1. Folder April 7 25 
+        1. BungieCordBlogWebAPI folder is created 
+        1. Run the Web API Project in Visual Studio (as you would run any other dot net project).
+        1.  Update 'ConnectionString'
+        1. Run 'Update-Database'
+        1. Update-Database -Context ApplicationDbContext
+        1. Update-Database -Context AuthDbContext
+        1. Update 'Key' with a 256 bit secret string
+        1. Run the Angular Project (as you would run any other angular project)
+        1. npm install
+        1. ng serve or npm run start
+        1. Connecting the Back End to Front End
+        1. API URI of the web api must match with the 'apiBaseUrl' in the front end app
+        1. Register user via Swagger/Postman
+        1. Login on the web app.
+        1. Default admin user is 'admin@BungieCordBlog.com' and Password is 'Password@6969'
+        1. Create a Category
+        1. Then, proceed to create blog posts
+        1. Blog Posts become visible on the home page
+        1. TODO : Add Register to the web app
+
+1. Battle Testing Connection String Stuff:
+ 
+    1. "Server=(localdb)\\MSSQLLocalDB;Database=BungieCordBlogDBApril72025a;Trusted_Connection=True;User Id=admin2;Password=password;"
+    1. "Server=(localdb)\\MSSQLLocalDB;Database=BungieCordBlogDBApril72025a;TrustServerCertificate=True;User Id=admin2;Password=password;"
+    1. "Server=localhost\\SQLEXPRESS;Database=BungieCordBlogDBApril72025a;Trusted_Connection=True;User Id=admin2;Password=password;"
+    1. "Server=localhost\\SQLEXPRESS;Database=BungieCordBlogDBApril72025b;User Id=admin2;Password=password;TrustServerCertificate=True"
+
+
+1. Battle tested for both the users with windows and sql authentication + localDB and SQLEXPRESS Server:
+
+    1. "Server=(localdb)\\MSSQLLocalDB;Database=BungieCordBlogDBApril72025a;Trusted_Connection=True;User Id=admin2;Password=password;"
+    1. "Server=(localdb)\\MSSQLLocalDB;Database=BungieCordBlogDBApril72025a;TrustServerCertificate=True;User Id=admin2;Password=password;"
+    1. "Server=localhost\\SQLEXPRESS;Database=BungieCordBlogDBApril72025a;Trusted_Connection=True;User Id=admin2;Password=password;"
+    1. "Server=localhost\\SQLEXPRESS;Database=BungieCordBlogDBApril72025b;User Id=admin2;Password=password;TrustServerCertificate=True"
+    1. "ConnectionString": "Server=localhost\\SQLEXPRESS;Database=BungieCordBlogDBApril72025b;Trusted_Connection=True;TrustServerCertificate=True;"
+
+
+1. This is worked for me :
+    1. Update the connection string in the application.json:
+    1. "ConnectionString": "Server=localhost\\SQLEXPRESS;Database=BungieCordBlogDBApril72025b;User Id=Sumanth;Password=Sumanth@01;TrustServerCertificate=True"
+    1. Update 'ConnectionString'
+    1. Run 'Update-Database'
+    1. pdate-Database -Context ApplicationDbContext
+    1. pdate-Database -Context AuthDbContext
+    1. pdate 'Key' with a 256 bit secret string --- get this from internet 
+    1. to test this with the swagger token check this in the https://jwt.io/ 
+And then run the commnds 
+
+
 
 ## 4-Apr-25
 
