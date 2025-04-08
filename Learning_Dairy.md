@@ -8,6 +8,36 @@ sql server Management:
 Username: Sumanth
 Password: Sumanth@01
 
+
+## 8-Apr-2025
+
+Another adventure filled training day awaits us. As usual, today's Agenda (which is similar to yesterday, as we are doing the same topic all 5 days)
+ 
+Morning Session
+ 
+1. SQL Queries Practice
+1. SQL Server Management Studio
+1. C# Ongoing as usual everyday
+1. GitHub and Project Management as usual everyday
+ 
+Afternoon Session
+ 
+1. Usual Udemy Stuff
+1. Usual TecStak Stuff
+1. Doubt Clearing
+1. Exploring Blogging Project (.NET and Angular)
+1. Exploring Blazor Project (.NET and Blazor)
+ 
+Links for Today
+ 
+1. https://vijayasimhabr.medium.com/practice-ms-sql-database-with-dc-comics-characters-d2d8c68025e1 
+1. https://jay-study-nildana.github.io/BungieCordBlog/ 
+1. https://github.com/Jay-study-nildana/Azure-CSharp-Corp-Trainer-Syllabus/tree/main/SQLFundamentals 
+1. https://github.com/Jay-study-nildana/BlazorForStudents
+ 
+Jay (Vijayasimha BR)
+https://github.com/Jay-study-nildana
+
 ## 7-Apr-2025
 Another glorious week of training has begun. As usual, today's Agenda
  
