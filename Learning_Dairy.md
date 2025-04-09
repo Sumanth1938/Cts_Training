@@ -8,6 +8,11 @@ sql server Management:
 Username: Sumanth
 Password: Sumanth@01
 
+"ConnectionString": "Server=(localdb)\\MSSQLLocalDB;Database=BungieCordBlogDBfeb222025;Trusted_Connection=True;User Id=sa;Password=dbisworking321;"
+
+<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.12" />
+<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.12">
+
 ## 9-Apr-2025
 
 Our lives are the sum of our choices. So, let's keep making good choices by learning programming and becoming super cool developers, yeah!
