@@ -13,6 +13,36 @@ Password: Sumanth@01
 <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.12" />
 <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.12">
 
+
+## 10-Apr-2025
+Alright, agenda, then. It's a repeat of yesterday, as its an ongoing topic.
+ 
+Morning Session
+ 
+1. Angular 16 and Angular 19 discussion
+1. SQL Views, Stored Procedures and Index
+1. SQL Server Management Studio
+1. Entity Framework + Domain Models and CRUD EndPoints
+1. C# Ongoing as usual everyday
+1. GitHub and Project Management as usual everyday
+ ~
+Afternoon Session
+ 
+1. Usual Udemy Stuff
+1. Usual TecStak Stuff
+1. Doubt Clearing
+1. Exploring Blogging Project (.NET and Angular)
+1. Exploring Blazor Project (.NET and Blazor)
+ 
+Links for Today
+ 
+1. https://vijayasimhabr.medium.com/practice-ms-sql-database-with-dc-comics-characters-d2d8c68025e1 
+1. https://jay-study-nildana.github.io/BungieCordBlog/ 
+1. https://github.com/Jay-study-nildana/Azure-CSharp-Corp-Trainer-Syllabus/tree/main/SQLFundamentals 
+1. https://github.com/Jay-study-nildana/BlazorForStudents
+
+
+
 ## 9-Apr-2025
 
 Our lives are the sum of our choices. So, let's keep making good choices by learning programming and becoming super cool developers, yeah!
