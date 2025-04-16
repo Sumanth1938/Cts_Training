@@ -8,10 +8,48 @@ sql server Management:
 Username: Sumanth
 Password: Sumanth@01
 
-"ConnectionString": "Server=(localdb)\\MSSQLLocalDB;Database=BungieCordBlogDBfeb222025;Trusted_Connection=True;User Id=sa;Password=dbisworking321;"
+"ConnectionString": "Server=LTIN619322;Database=EfCoreHelloWorldApril92025a;TrustServerCertificate=True;User Id=Sumanth;Password=Sumanth@01;"
+
 
 <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.12" />
 <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.12">
+
+
+## 16-Apr-2025
+Folks
+ 
+Let's continue to our journey towards the final project. Here is your day 11/12 training Agenda.
+ 
+1. EF Core - Specifically One to Many Relationships with P Key and F Key
+1. Blazor Discussion
+1. Ongoing C# and Web API Development
+1. TecStac Stuff
+1. Udemy Stuff
+ 
+Final Project - Sprint One - April 15th to April 18th. 
+ 
+1. Continue Sprint One Tasks
+1. Add One to Many To Your Tables
+1. Finish Creating all Tables for all Modules
+1. Run Angular Hello World Project
+1. Add NASA APOD API view in Angular
+1. Build and Test Authentication Server
+ 
+We are ahead of schedule folks and for that, I am grateful. Let's keep the momentum going.
+
+## 11-Apr-2025
+
+The last day of the week before the long weekend. Let's continue with our coding journey.
+ 
+Here is the agenda for today.
+ 
+1. Continue Building Web API with EF Core.
+ 
+Links for the day
+ 
+https://jay-study-nildana.github.io/BungieCordBlog/
+ 
+
 
 
 ## 10-Apr-2025
@@ -45,6 +83,8 @@ Links for Today
 
 ## 9-Apr-2025
 
+Building a web api with ef core 
+
 Our lives are the sum of our choices. So, let's keep making good choices by learning programming and becoming super cool developers, yeah!
  
 Agenda, then.
@@ -70,6 +110,7 @@ Links for Today
 1. https://jay-study-nildana.github.io/BungieCordBlog/ 
 1. https://github.com/Jay-study-nildana/Azure-CSharp-Corp-Trainer-Syllabus/tree/main/SQLFundamentals 
 1. https://github.com/Jay-study-nildana/BlazorForStudents
+
 
 
 ## 8-Apr-2025
