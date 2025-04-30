@@ -8,12 +8,49 @@ sql server Management:
 Username: Sumanth
 Password: Sumanth@01
 
-"ConnectionString": "Server=LTIN619322;Database=EfCoreHelloWorldApril92025a;TrustServerCertificate=True;User Id=Sumanth;Password=Sumanth@01;"
 
+ "ConnectionStrings": {
+     "ConnectionString": "Server=LTIN619322;Database=AAA_29Proj_final_1;TrustServerCertificate=True;User Id=Sumanth;Password=Sumanth@01;"
+ },
+
+`"ConnectionString": "Server=LTIN619322;Database=EfCoreHelloWorldApril92025a;TrustServerCertificate=True;User Id=Sumanth;Password=Sumanth@01;"`
+
+`Scaffold-DbContext  'Server=LTIN619322;Database=Notification_3;TrustServerCertificate=True;User Id=Sumanth;Password=Sumanth@01;' Microsoft.EntityFrameWorkCore.SqlServer -ContextDir ScaffoldContext -OutputDir ScaffoldModels`
 
 <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.12" />
 <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.12">
 
+
+## 19-Apr-2025
+
+Max Verstappen came second over the weekend at Jeddah and very much in contention for the Drivers Championship, so, I am super elated and ready to power through, joyfully, another week of training.
+ 
+Today's Agenda then. This could extend to the remaining days this week.
+ 
+Learning Things.
+ 
+1. Interfaces
+1. Interface Implementation
+1. Dependency Injection
+1. Unit Tests
+1. Unit Tests with MOQ
+1. Unit Tests of Controllers
+ 
+Project Related
+ 
+1. Dedicated Front End and Back End Teams within project teams
+1. Exploring Angular projects at https://github.com/Jay-study-nildana/AngularForStudents
+1. Pod Leaders setting up their dedicated cabins for team discussions
+1. Adding Sprint Two Related Targets to project dashboards.
+
+
+
+## 18-Apr-2025
+
+1. Interfaces
+1. Interface development
+1. Dependency Injection
+1. 
 
 ## 16-Apr-2025
 Folks
